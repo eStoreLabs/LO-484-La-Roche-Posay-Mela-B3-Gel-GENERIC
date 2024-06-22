@@ -71,7 +71,7 @@
 }
 #la-roche.la-roche sup {
   vertical-align: top;
-  font-size: 10px;
+  font-size: 12px;
 }
 #la-roche.la-roche .es-kv {
   padding: 20px;
@@ -170,7 +170,7 @@
 }
 #la-roche.la-roche .es-effects__text {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 12.8px;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -217,6 +217,8 @@
   font-size: 12px;
   text-align: center;
   line-height: 1.2;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 #la-roche.la-roche .es-results {
   background-color: #4d237f;
@@ -229,7 +231,7 @@
 }
 #la-roche.la-roche .es-results__title {
   text-transform: uppercase;
-  font-size: clamp(1rem, 1.1222rem + 0.8889vw, 1.8rem);
+  font-size: 28px;
   line-height: 1;
   max-width: 25ch;
   margin: auto;
@@ -272,7 +274,7 @@
   text-transform: uppercase;
 }
 #la-roche.la-roche .es-results__text {
-  font-size: 1rem;
+  font-size: 15px;
   font-weight: 300;
   line-height: 1.5;
   margin: 0;
@@ -287,7 +289,7 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: clamp(1rem, 1.1222rem + 0.8889vw, 1.8rem);
+  font-size: 28px;
 }
 #la-roche.la-roche .es-ingr__container {
   display: flex;
@@ -341,7 +343,9 @@
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   font-weight: 400;
-  font-size: clamp(1rem, 1.1222rem + 0.8889vw, 1.8rem);
+  font-size: 28px;
+  margin-top: 22px;
+  margin-bottom: 22px;
   text-align: center;
 }
 #la-roche.la-roche .es-effect__title span {
@@ -380,7 +384,7 @@
 #la-roche.la-roche .es-effect__item-description {
   margin: 0;
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   text-align: left;
 }
 #la-roche.la-roche .es-use {
@@ -391,7 +395,7 @@
 }
 #la-roche.la-roche .es-use__title {
   margin-bottom: 26px;
-  font-size: clamp(1rem, 1.1222rem + 0.8889vw, 1.8rem);
+  font-size: 28px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -399,7 +403,7 @@
   list-style: none;
   counter-reset: my-counter;
   max-width: 382px;
-  font-size: 13px;
+  font-size: 15px;
   margin-left: -30px;
 }
 #la-roche.la-roche .es-use ol li {
@@ -411,7 +415,7 @@
 #la-roche.la-roche .es-use ol li::marker {
   content: counter(my-counter) ".";
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 12.8px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
 }
@@ -420,14 +424,14 @@
   background-image: url(../img/bg-routine-min.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: 41% top;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
   position: relative;
-  min-height: 651px;
+  min-height: 820px;
 }
 #la-roche.la-roche .es-cross:nth-child(2) {
   align-self: flex-start;
@@ -560,7 +564,7 @@
   padding: 10px;
   font-weight: bolder;
   margin-bottom: 5px;
-  font-size: 17px;
+  font-size: 15px;
 }
 #la-roche.la-roche .es-footer {
   margin: 50px 0;
@@ -598,7 +602,7 @@
     max-width: 65%;
   }
   #la-roche.la-roche .es-obligations {
-    margin-top: 400px;
+    margin-top: 220px;
     background-image: url(../img/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -679,10 +683,10 @@
   }
   #la-roche.la-roche .es-effect {
     margin-right: -1px;
-    background-image: url(../img/creme.png);
+    background-image: url(../img/creme.png), url(../img/creme-new.png);
     background-repeat: no-repeat;
-    background-size: 35%;
-    background-position: right;
+    background-size: 30%, 55%;
+    background-position: right, left bottom;
     padding-top: 75px;
     padding-bottom: 50px;
   }
@@ -727,6 +731,7 @@
     margin-bottom: 30px;
   }
   #la-roche.la-roche .es-effects__title {
+    font-size: 28.8px;
     margin-bottom: 50px;
   }
   #la-roche.la-roche .es-results {
@@ -737,7 +742,8 @@
   }
   #la-roche.la-roche .es-use__content {
     max-width: 58%;
-    padding: 1rem 27rem;
+    padding: 6rem 30rem;
+    padding-top: 3rem;
     padding-right: 0;
   }
   #la-roche.la-roche .es-features {
@@ -806,7 +812,7 @@
     right: 20px;
   }
   #la-roche.la-roche .es-cross__single--3 {
-    bottom: -324px;
+    bottom: -145px;
     left: 69px;
   }
   #la-roche.la-roche .es-cross__single--1 img {
@@ -816,6 +822,6 @@
     height: 419px;
   }
   #la-roche.la-roche .es-cross__single--3 img {
-    height: 475px;
+    height: 375px;
   }
 }/*# sourceMappingURL=style.css.map */
